@@ -1,0 +1,66 @@
+#cancer_genetics {
+    width: 1000px;
+    margin:20px auto;
+
+}
+.info{
+    line-height: 22px;
+}
+
+#main_info_box{
+    padding: 0 10px;
+}
+
+#main_info_box p{
+    margin-top: 10px;
+}
+#bottom_info_boxes{
+    margin-top: 5px;
+}
+
+.bottom_info_box{
+    display:inline-block;
+    text-align: center;
+    width: 326px;
+}
+
+.bottom_info_box h3{
+    padding: 10px;
+    font-size: 21px;
+}
+
+.bottom_info_box a{
+    display: block;
+    padding: 5px;
+    width: 150px;
+    margin: 0 auto;
+    color:white;
+    text-decoration: none;
+}
+#hematology h3{
+    color:limegreen;
+}
+#hematology a{
+    background-color: limegreen;
+}
+#hematology a:hover{
+    background-color: green;
+}
+#solid-tumors h3{
+    color:red;
+}
+#solid-tumors a{
+    background-color: red;
+}
+#solid-tumors a:hover{
+    background-color: darkred;
+}
+#cytogenetics h3{
+    color: #07A2EF;
+}
+#cytogenetics a{
+    background-color:#07A2EF;
+}
+#cytogenetics a:hover{
+    background-color:darkblue;
+}

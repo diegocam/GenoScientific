@@ -1,0 +1,13 @@
+.normal_ul_list li {
+    margin-bottom: 10px;
+    color: dodgerblue;
+}
+
+.normal_ul_list li a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.normal_ul_list li a:hover {
+    color: limegreen;
+}

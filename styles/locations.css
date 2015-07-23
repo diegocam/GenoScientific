@@ -1,0 +1,12 @@
+#address_map .left{
+    float:left;
+    width: 50%;
+}
+#address_map .right{
+    float:right;
+    width: 50%;
+}
+#map-canvas {
+    width: 500px;
+    height: 400px;
+}

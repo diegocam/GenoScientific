@@ -1,0 +1,14 @@
+ .swiper-container{
+    height: 300px;
+
+}
+
+#main_page_info{
+    line-height: 22px;
+}
+
+.swiper-slide .title{
+    margin-top: -200px;
+    text-shadow: black 0.1em 0.1em 0.5em;
+    font-weight: bold;
+}

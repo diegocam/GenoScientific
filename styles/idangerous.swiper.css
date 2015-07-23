@@ -1,0 +1,137 @@
+.swiper-slide{ 
+    -webkit-transition: max-width .5s ease-out;
+    -moz-transition: max-width .5s ease-out;
+    -ms-transition: max-width .5s ease-out;
+    -o-transition: max-width .5s ease-out;
+    transition: max-width .5s ease-out;
+} 
+
+.swiper-container {
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+    color: #fff;
+    text-align: center;
+    overflow:hidden;
+    position:  relative;
+}
+.swiper-slide img{ 
+    -webkit-transition: margin-top .5s ease-out;
+    -moz-transition: margin-top .5s ease-out;
+    -ms-transition: margin-top .5s ease-out;
+    -o-transition: margin-top .5s ease-out;
+    transition: margin-top .5s ease-out;
+}
+
+@media (min-width: 1400px){
+    
+    .swiper-container {
+        width: 100%;
+        height:700px;
+    }
+    .swiper-slide{ 
+        width:100%; 
+    }
+    .swiper-slide img{ 
+        width:100%; 
+    }
+}
+@media (max-width: 1400px){
+    .swiper-container {
+        width: 100%;
+        height:500px;
+    }
+    .swiper-slide{ 
+        width:100%; 
+    }
+    .swiper-slide img{ 
+        width:100%; 
+    }
+}
+
+@media (max-width: 1200px){
+    .swiper-slide img{ 
+        width:100%; 
+    }
+    .swiper-container {
+        height: 450px;
+    }
+}
+@media (max-width: 1000px){
+    .swiper-slide img{ 
+        width:100%; 
+    }
+    .swiper-container {
+        height: 425px;
+    }
+}
+@media (max-width: 800px){
+    .swiper-slide img{ 
+        width:100%; 
+    }
+    .swiper-container {
+        height: 400px;
+    }
+}
+@media (max-width: 600px){
+    .swiper-slide img{ 
+        width:100%; 
+    }
+    .swiper-container {
+        height: 375px;
+    }
+}
+
+.swiper-slide {
+    float: left;
+
+}
+
+
+
+.blue-slide {
+    background: #4390ee;
+}
+.orange-slide {
+    background: #ff8604;
+}
+.green-slide {
+    background: #49a430;
+}
+.pink-slide {
+    background: #973e76;
+}
+.swiper-slide .title {
+    font-style: italic;
+    font-size: 42px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    line-height: 45px;
+}
+.pagination {
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 10px;
+    text-align: center;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: #222;
+    margin-right: 5px;
+    opacity: 0.8;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.swiper-visible-switch {
+    background: #aaa;
+}
+.swiper-active-switch {
+    background: #fff;
+}

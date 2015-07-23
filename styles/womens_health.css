@@ -1,0 +1,79 @@
+ #womens_health_section_wrapper{
+    width:1000px;
+    margin:0 auto;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 22px;
+}
+#womens_health_section_wrapper h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: deeppink;
+    
+}
+#womens_health_section_wrapper h2{
+    font-size: 16px;
+    color: deeppink;
+}
+
+#womens_health_section_wrapper #mid_image_contianer{
+    width: 500px;
+    margin:0 auto;
+    position: relative;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_container{
+    width: 500px;
+    margin:30px auto;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context{
+    position: absolute;
+    top:0;
+    left:0; 
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #right,
+#womens_health_section_wrapper #mid_image_contianer #image_context #left{
+    float:left;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #left #left_top{
+    height: 180px;
+    width: 390px;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #left div h3{
+    float:left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #left div #liquid{
+    width: 210px;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #right li{
+    margin: 0 0 14px 0;
+    
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #right a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-color: deeppink;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+}
+#womens_health_section_wrapper #mid_image_contianer #image_context #right a:hover{
+    background-color:  pink;
+    color:deeppink;
+    font-size: 14px;
+}
+
+#womens_health_section_wrapper #list{
+    width:500px;
+    margin: 0 auto;
+}
+
+#womens_health_section_wrapper #list ul li{
+    margin-left: 40px;
+    list-style-type: disc;
+}
